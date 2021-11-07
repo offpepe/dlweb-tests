@@ -5,7 +5,7 @@ import EUAFlag from '../public/EUA.svg.png';
 import FRFlag from '../public/FR.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import styles from '../styles/Home.module.css';
+import styles from '../styles/HeaderMenu.module.css';
 
 const HeaderMenu = () => (
     <div>
