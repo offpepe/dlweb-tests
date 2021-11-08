@@ -1,8 +1,9 @@
 .LoadingDescription {
     background-color: #F8F9FC;
-    height: 100vh;
+    height: 100%;
     text-align: center;
     width: 100%;
+    padding: 128px 0;
 }
 
 .LoadingDescription h2 {
@@ -11,11 +12,22 @@
     font-weight: 800;
 }
 
+.FreeRow { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.FreeRow section {
+    margin: 40px;
+}
+
 .PrizeDrawExample {
     background-color: white;
     border: 1px solid #E9EAED;
     box-sizing: border-box;
     box-shadow: 0px 0px 12px rgba(86, 91, 122, 0.08);
+    height: 383px;  
     width: 460px;
     z-index: 1;
 }
@@ -83,4 +95,33 @@
     display: flex;
     justify-content: center;
     width: 20%;
+}
+
+.FreeDrawDetails {
+    color: #62697E;
+    height: 391px;
+    text-align: start;
+    z-index: 1;
+}
+
+.FreeDrawDetails h2{
+    font-size: 66px;
+    margin: 5px 0
+}
+
+.FreeDrawDetailsContent h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.FreeDrawDetails ul {
+    position: relative;
+	list-style: none;
+}
+
+.FreeDrawDetails ul li::before {
+    content: "✔️";
+    position: absolute;
+	left: 0;
 }
