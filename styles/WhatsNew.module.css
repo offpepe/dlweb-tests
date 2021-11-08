@@ -18,3 +18,52 @@
     color: #62697E;
     font-size:  18px;
 }
+
+.topicCardsBox {
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+    padding: 88px 0 128px 0;
+    width: 80%;
+}
+
+.topicCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 164px;
+    width: 20%;
+}
+
+.topicCardHeader {
+    display: flex;
+    align-items: center;
+}
+
+.topicCardHeader h3 {
+    font-size: 26px;
+    margin: 0;
+}
+
+.topicCardIMG {
+    align-items: center;
+    background-color: #E4F2FF;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.topicCardIMG img {
+    width: 36px;
+    height: 40px;
+}
+
+.topicCardBody p{
+    color: #62697E;
+    font-size: 14px;
+    width: 70%;    
+}
