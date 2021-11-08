@@ -1,0 +1,42 @@
+.Prices {
+    align-items: center ;
+    background-color: #F8F9FC;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    text-align: center;
+}
+
+.PricesTop {
+    border-radius: 18px;
+    border-top: 6px solid #FA6615;
+    width: 188px;
+}
+
+.PricesBottom {
+    border-radius: 18px;
+    border-top: 6px solid #FA6615;
+    width: 188px;
+}
+
+.PricesContent h2{
+    font-size: 46px;
+    color: #FA6615;
+}
+
+.PricesContent p {
+    color: #62697E;
+    font-size: 18px;
+}
+
+.Prices button {
+    border: none;
+    border-radius: 8px;
+    background-color: #FA6615;
+    color: #F8F9FC;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 40px;
+    padding: 22px 90px;
+}
