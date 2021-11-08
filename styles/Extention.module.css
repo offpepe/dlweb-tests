@@ -1,0 +1,50 @@
+.Extention {
+    align-items: center ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.ExtentionContent {
+    padding: 128px;
+
+}
+
+.Extention h2 {
+    font-size: 46px;
+    color: #FA6615;
+}
+
+.Extention p {
+    color: #62697E;
+    font-size: 18px;
+}
+
+.Extention button {
+    background-color: #ffff ;
+    border-color: #E9EAED;
+    border-style: solid;
+    border-radius: 8px;
+    height: 78px;
+    margin: 40px 0;
+    width: 383px;
+}
+
+.btnContent {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    padding: 30px;
+}
+
+.btnContent h3 {
+    margin: 0 20px;
+}
+
+.ExtentionBottom {
+    border-radius: 18px;
+    border-top: 6px solid #FA6615;
+    width: 188px;
+}
