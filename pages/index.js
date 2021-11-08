@@ -3,6 +3,7 @@ import HeaderMenu from '../components/HeaderMenu';
 import Header from '../components/Header';
 import WhatsNew from '../components/WhatsNew';
 import LoadingDescription from '../components/LoadingDescription';
+import WhoUses from '../components/WhoUses';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
     <Header />
     <WhatsNew />
     <LoadingDescription />
+    <WhoUses />
   </>
   )
 }
