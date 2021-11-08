@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import WhatsNew from '../components/WhatsNew';
 import LoadingDescription from '../components/LoadingDescription';
 import WhoUses from '../components/WhoUses';
+import Prices from '../components/Prices';
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <WhatsNew />
     <LoadingDescription />
     <WhoUses />
+    <Prices />
   </>
   )
 }
