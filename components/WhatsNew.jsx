@@ -1,4 +1,5 @@
 import styles from '../styles/WhatsNew.module.css'
+import TopicCard from './TopicCard';
 
 export default function WhatsNew() {
     const  topics = [
@@ -31,6 +32,9 @@ export default function WhatsNew() {
                Tem dúvidas?! Confira as vantagens de usar sorteio.com.
           </p>
         </artice>
+        <div className={ styles.topicCardsBox } >
+            { topics.map((topic, index) => <TopicCard topic={ topic } key={ index } />) }
+        </div>
     </section>
     )
 }
