@@ -2,6 +2,7 @@ import Head from 'next/head';
 import HeaderMenu from '../components/HeaderMenu';
 import Header from '../components/Header';
 import WhatsNew from '../components/WhatsNew';
+import LoadingDescription from '../components/LoadingDescription';
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <HeaderMenu />
     <Header />
     <WhatsNew />
+    <LoadingDescription />
   </>
   )
 }
