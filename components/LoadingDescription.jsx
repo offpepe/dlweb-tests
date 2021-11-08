@@ -1,4 +1,5 @@
 import style from '../styles/LoadingDescription.module.css';
+import PrizeDrawDetails from './PrizeDrawDetails';
 import PrizeDrawExample from './PrizeDrawExample';
 
 export default function LoadingDescription() {
@@ -8,9 +9,12 @@ export default function LoadingDescription() {
             <h2> Aqui tem sorteio VIP e gratuito. <br/> Venha conhecer! </h2>
           </div>
           <section className={ style.FreeRow }>
-            <div style={ { border: '1px 1px solid black', width: '100%' } }>
              <PrizeDrawExample />
-            </div>
+             <PrizeDrawDetails />
+          </section>
+          <section className={ style.FreeRow }>
+            <PrizeDrawDetails vip />
+            <PrizeDrawExample vip />
           </section>
         </section> 
     )
