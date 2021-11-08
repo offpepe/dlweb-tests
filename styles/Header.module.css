@@ -1,0 +1,50 @@
+.headerSection {
+    background: url('/HeaderBG.png') no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+}
+
+.headerBox {
+    background-color: #f5f5f5ef;
+    backdrop-filter: blur(3px);
+    border: 1px 1px solid rgb(124, 124, 124);
+    border-radius: 5%;
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.315);
+    margin: 160px 190px;
+    width: 46%;
+    z-index: 1;
+}
+
+.headerContent {
+    margin: 70px;
+    width: 80%;
+}
+.headerContent h1 {
+    color: #FA6615;
+    font-size: 80px;
+    margin: 0;
+}
+
+.headerContent article {
+    color: #62697E;
+    font-size: 30px;
+}
+
+.headerContent button {
+    align-items: center;
+    background-color: #FA6615;
+    border-color: white;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    font-size: 25px;
+    justify-content: center;
+    width: 70%;
+    padding: 14px;
+}
+
+.headerContentBtnCtt {  display: flex; align-items: center; justify-content: space-between; width: 40%; margin: 10px 0; }
+
+.headerContentBtnCtt p { margin: 0 10px; }
