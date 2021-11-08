@@ -5,6 +5,7 @@ import WhatsNew from '../components/WhatsNew';
 import LoadingDescription from '../components/LoadingDescription';
 import WhoUses from '../components/WhoUses';
 import Prices from '../components/Prices';
+import Extention from '../components/Extention';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
     <LoadingDescription />
     <WhoUses />
     <Prices />
+    <Extention />
   </>
   )
 }
