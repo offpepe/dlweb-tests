@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function InfluencerCard({ influencer: {  sign, followers }, active, index }) {
     return (
-        <div className={ style.influencerCard }>
+        <div className={ style.influencerCard } style={ { border: ( active === index ? '2px solid #FA6615' : '1px solid #00000027'  ) } } >
             <div className={ style.influencerCardHeader }>
                 <Image src="/linkIcon.svg" width="30px" height="30px" alt="link icon" />
             </div>
