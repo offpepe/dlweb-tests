@@ -1,0 +1,77 @@
+.WhoUsesTitle {
+    text-align: center;
+    padding: 128px 0;
+}
+
+.WhoUsesTitle h2 {
+    color: #FA6615;
+    font-size: 42px;
+    margin: 5px 0;
+}
+
+.WhoUsesCarousel {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.influencerCard {
+    align-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.151);
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    justify-content: center;
+    width: 240px;
+}
+
+.influencerCardHeader {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    padding: 0 10px;
+    width: 100%;
+}
+
+.influencerCardPhoto {
+    align-items: center;
+    box-sizing: border-box;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 5px ;
+}
+
+
+.influencerCardBody h4 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.influencerCardBody {
+    color: #62697E;
+}
+
+.arrowBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 50px;
+    width: 90%;
+}
+
+.arrow {
+    align-items: center;
+    border: 1px solid #0000002d;
+    border-radius: 50%;
+    margin: 20px 3px;
+    box-sizing: border-box;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 50px;
+}
+
