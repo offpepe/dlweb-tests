@@ -5,7 +5,7 @@ const Document = () => (
     <Html>
         <Head>
         <meta name="description" content="LandingPage to dlweb pratical test" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.svg" />
       </Head>
     </Html>
     <body>
