@@ -13,6 +13,17 @@
     padding-top: 20px;
 }
 
+.FooterTopic a {
+    color: #62697E;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.FooterTopic a:hover {
+    color: #FA6615;
+    text-decoration: underline #FA6615;
+}
+
 .FooterCopyRights h4{
     color: #FA6615;
     font-size: 20px;
@@ -124,9 +135,17 @@
 .FooterTailCtt a {
     margin: 0 10px;
 }
+.FooterTailCtt a:hover {
+    color: #FA6615;
+    text-decoration: underline #FA6615;
+}
 
 .FooterTailCttR {
     align-items: center;
     display: flex;
     justify-content: space-between;
+}
+
+.FooterTailCttR p{
+    margin: 0 10px
 }
