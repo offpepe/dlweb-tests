@@ -125,3 +125,11 @@
     position: absolute;
 	left: 0;
 }
+
+.FreeDrawDetails a {
+    color: #2F81FF;
+}
+
+.FreeDrawDetails a:hover {
+    text-decoration: underline #2F81FF;
+}
