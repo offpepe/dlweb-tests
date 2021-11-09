@@ -1,19 +1,21 @@
 .headerSection {
+    align-items: center;
     background: url('/HeaderBG.png') no-repeat;
     background-size: cover;
     display: flex;
-    align-items: flex-start;
     height: 100vh;
+    justify-content: center;
 }
 
 .headerBox {
-    background-color: #f5f5f5ef;
     backdrop-filter: blur(3px);
-    border: 1px 1px solid rgb(124, 124, 124);
-    border-radius: 5%;
-    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.315);
-    margin: 160px 190px;
-    width: 46%;
+    background-color: #f5f5f5ef;
+    border: 1px solid #7c7c7c;
+    border-radius: 12px;
+    box-shadow: 3px 5px 5px #00000050;
+    margin-right: 20%;
+    position: absolute;
+    width: 600px;
     z-index: 1;
 }
 
@@ -23,13 +25,13 @@
 }
 .headerContent h1 {
     color: #FA6615;
-    font-size: 80px;
+    font-size: 54px;
     margin: 0;
 }
 
 .headerContent article {
     color: #62697E;
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .headerContent button {
@@ -41,10 +43,23 @@
     display: flex;
     font-size: 25px;
     justify-content: center;
-    width: 70%;
+    height: 56px;
+    width: 90%;
     padding: 14px;
 }
 
 .headerContentBtnCtt {  display: flex; align-items: center; justify-content: space-between; width: 40%; margin: 10px 0; }
 
-.headerContentBtnCtt p { margin: 0 10px; }
+.headerContentBtnCtt p { margin: 0 5px; font-size: 18px; }
+
+.toOldVersion {
+    align-items: center;
+    display: flex;
+    color: #FA6615;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.toOldVersion p {
+    margin: 10px;
+}
