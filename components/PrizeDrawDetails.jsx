@@ -50,7 +50,16 @@ export default function PrizeDrawDetails({ vip }) {
                 { vip ? VIPdescription() : freeDescription()  }
             </div>
             { topics() } 
-            <a href="#howItWorks"  > Veja em Como Funciona <Image src="/arrow.svg" width="8px" height="10px" alt="arrow vector" /> </a>
+            <a href="#como-sortear"  > 
+                Veja em Como Funciona
+                <Image
+                  className={ style.FreeDrawDetailsContentImg }
+                  src="/arrow.svg"
+                  width="8px"
+                  height="10px"
+                  alt="arrow vector"
+                />
+            </a>
         </section>
     )
 }
