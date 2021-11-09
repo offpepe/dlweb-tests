@@ -3,6 +3,7 @@ import Image from 'next/image';
 import LanguagesDropdown from './LanguagesDropdown';
 
 export default function Footer() {
+const fbPopup = 'https://www.facebook.com/v2.3/dialog/oauth?app_id=2677253322537762&auth_type=&cbt=1636429955403&channel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df8b999f79b7dec%26domain%3Dsorteio.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fsorteio.com%252Fff544405baa4a%26relation%3Dopener&client_id=2677253322537762&display=popup&domain=sorteio.com&e2e=%7B%7D&fallback_redirect_uri=https%3A%2F%2Fsorteio.com%2Finstagram&locale=en_US&logger_id=f18e8eccb8dac1&origin=1&redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df8c55763a5137c%26domain%3Dsorteio.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fsorteio.com%252Fff544405baa4a%26relation%3Dopener%26frame%3Df1cd10ac692ec3c&response_type=token%2Csigned_request%2Cgraph_domain&return_scopes=false&scope=public_profile%2C%20email%2C%20instagram_basic%2C%20pages_show_list&sdk=joey&version=v2.3';
     return (
         <footer>
             <section className={ style.FooterTopics }>
@@ -58,7 +59,7 @@ export default function Footer() {
                           <h5> Instalar extensão </h5>
                           </div>
                       </button>
-                      <button onClick={ () => window.open('https://www.facebook.com/v2.3/dialog/oauth?app_id=2677253322537762&auth_type=&cbt=1636429955403&channel_url=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df8b999f79b7dec%26domain%3Dsorteio.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fsorteio.com%252Fff544405baa4a%26relation%3Dopener&client_id=2677253322537762&display=popup&domain=sorteio.com&e2e=%7B%7D&fallback_redirect_uri=https%3A%2F%2Fsorteio.com%2Finstagram&locale=en_US&logger_id=f18e8eccb8dac1&origin=1&redirect_uri=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df8c55763a5137c%26domain%3Dsorteio.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fsorteio.com%252Fff544405baa4a%26relation%3Dopener%26frame%3Df1cd10ac692ec3c&response_type=token%2Csigned_request%2Cgraph_domain&return_scopes=false&scope=public_profile%2C%20email%2C%20instagram_basic%2C%20pages_show_list&sdk=joey&version=v2.3') }>
+                      <button onClick={ () => window.open(fbPopup, 'Entrar com Facebook','width=600, height=700') }>
                           <div className={ style.FooterExtentionBtnCtt }>
                           <Image src="/facebook.svg" width="27px" height="27px" alt="chrome icon" /> 
                           <h5> Conectar com Facebook </h5>
