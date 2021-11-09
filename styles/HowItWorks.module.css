@@ -39,12 +39,18 @@
     width: 319px;
 }
 
+
 .HiWcontent button > div {
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 18px;
+}
+
+.HiWcontent button:active {
+    box-shadow: 1px 2px #a1491aef;
+    transform: translateY(3px);
 }
 
 .HiWbtnContent p {

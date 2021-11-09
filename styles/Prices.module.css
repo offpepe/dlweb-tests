@@ -40,3 +40,12 @@
     margin: 40px;
     padding: 22px 90px;
 }
+
+.Prices button:hover {
+    box-shadow: 1px 2px #a1491aef;
+}
+
+.Prices button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}

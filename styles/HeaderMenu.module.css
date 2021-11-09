@@ -27,6 +27,11 @@
   margin: 0 15px;
 }
 
+.headerNav a:hover {
+  color: #FA6615;
+  text-decoration: underline #FA6615;
+}
+
 .languagesDD {
   display: inline-block;
   margin: 0 20px;

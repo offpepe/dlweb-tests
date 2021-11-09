@@ -31,6 +31,15 @@
     width: 383px;
 }
 
+.Extention button:hover {
+    box-shadow: 1px 3px #8f8f91;
+}
+
+.Extention button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
 .btnContent {
     align-items: center;
     display: flex;

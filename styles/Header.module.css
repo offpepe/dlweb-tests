@@ -37,20 +37,39 @@
 .headerContent button {
     align-items: center;
     background-color: #FA6615;
-    border-color: white;
+    border: none;
     border-radius: 8px;
     color: white;
     display: flex;
     font-size: 25px;
-    justify-content: center;
     height: 56px;
-    width: 90%;
+    justify-content: center;
     padding: 14px;
+    width: 90%;
 }
 
-.headerContentBtnCtt {  display: flex; align-items: center; justify-content: space-between; width: 40%; margin: 10px 0; }
+.headerContent button:hover {
+    box-shadow: 1px 2px #a1491aef;
+}
 
-.headerContentBtnCtt p { margin: 0 5px; font-size: 18px; }
+.headerContent button:active {
+    box-shadow: none;
+    transform: translateY(2px);
+}
+
+.headerContentBtnCtt {  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    margin: 10px 0;
+}
+
+.headerContentBtnCtt p {
+    margin: 0 5px;
+    font-size: 18px;
+}
+
 
 .toOldVersion {
     align-items: center;
@@ -62,4 +81,8 @@
 
 .toOldVersion p {
     margin: 10px;
+}
+
+.toOldVersion p:hover {
+    text-decoration: underline #FA6615;
 }

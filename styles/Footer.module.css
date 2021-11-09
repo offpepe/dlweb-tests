@@ -69,6 +69,16 @@
     padding: 6px 15px;
 }
 
+.instagramCard button:hover {
+    background-color: #3582ca;
+}
+
+.instagramCard button:active {
+    background-color: #3582ca;
+    box-shadow: 0 2px #0d3b66;
+    transform: translateY(3px);
+}
+
 .FooterExtention {
     align-items: center;
     display: flex;
@@ -100,6 +110,14 @@
     border-style: solid;
     border-radius: 8px;
     margin: 0 5px;
+}
+
+.FooterExtentionCard button:hover {
+    box-shadow: 1px 2px #bdbdc0;
+}
+
+.FooterExtentionCard button:active {
+    transform: translateY(3px);
 }
 
 .FooterExtentionBtnCtt {    
