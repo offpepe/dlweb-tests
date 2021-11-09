@@ -6,6 +6,7 @@ import LoadingDescription from '../components/LoadingDescription';
 import WhoUses from '../components/WhoUses';
 import Prices from '../components/Prices';
 import Extention from '../components/Extention';
+import HowItWorks from '../components/HowItWorks';
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
     <WhoUses />
     <Prices />
     <Extention />
+    <HowItWorks />
   </>
   )
 }
