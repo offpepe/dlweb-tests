@@ -2,7 +2,7 @@ import styles from '../styles/Prices.module.css';
 
 export default function Prices() {
     return (
-        <section className={ styles.Prices }>
+        <section className={ styles.Prices } id="preços">
             <span className={ styles.PricesTop } />
             <div style={ { padding: '128px', height: '542px' } }>
             <div  className={ styles.PricesContent }>
@@ -15,7 +15,7 @@ export default function Prices() {
                   exclusivas sorteio.com para influenciadores digitais. 
                 </p>
             </div>
-            <button> Quero conhecer </button>
+            <button onClick={ () => window.open('https://sorteio.com/instagram') } > Quero conhecer </button>
             </div>
             <span className={ styles.PricesBottom } />
         </section>

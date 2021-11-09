@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export default function HowItWorks() {
     return (
-        <section className={ style.HiW }>
+        <section className={ style.HiW } id="como-sortear">
             <div className={ style.HiWtitle }>
                 <h2> Como funciona? </h2>
             </div>
@@ -17,7 +17,7 @@ export default function HowItWorks() {
                           Sem crise, entre em contato com nosso atendimento pelo chat ou e-mail. Nossa equipe está sempre preparada pra te ajudar ;)
                       </p>
                   </article>
-                  <button>
+                  <button  onClick={ () => window.open('https://sorteio.com/instagram') } >
                       <div className={ style.HiWbtnContent }>
                       <Image src="/instagramIcon.svg" alt="instagram ico"  width="19px" height="19px" />
                       <p>Sortear no Instagram </p>

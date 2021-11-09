@@ -14,7 +14,7 @@ export default function Extention () {
                   necessário fazer nada disso novamente. É só chegar, e sortear!
               </p>
               </div>
-              <button>
+              <button onClick={ () => window.open('https://chrome.google.com/webstore/detail/sorteiocom/gjpkngahkcdfjnelojifgmdjfocdllne') } >
                   <div className={ style.btnContent }>
                     <Image src="/chrome.svg" alt="chrome icon" width="27" height="27"  />
                   <h3>
