@@ -7,6 +7,7 @@ import WhoUses from '../components/WhoUses';
 import Prices from '../components/Prices';
 import Extention from '../components/Extention';
 import HowItWorks from '../components/HowItWorks';
+import Footer from '../components/Footer';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
     <Prices />
     <Extention />
     <HowItWorks />
+    <Footer />
   </>
   )
 }
