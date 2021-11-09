@@ -1,0 +1,52 @@
+.HiW {
+    padding: 128px 0 88px 0;
+    background: url('/HiWbg.png') no-repeat;
+    background-size: cover;
+}
+
+.HiWtitle h2 {
+    color: #FA6615; 
+    font-size: 46px; 
+    text-align: center;
+}
+
+.HiWbody {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.HiWcontent {
+    align-items: flex-start;
+    color: #62697E;
+    display: flex;
+    flex-direction: column;
+    height: 381px;
+    justify-content: flex-start;
+    width:  23%;
+}
+
+.HiWcontent h3 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.HiWcontent button {
+    background-color: #FA6615;
+    border-radius: 8px;
+    border-style: none;
+    margin: 30px 0;
+    width: 319px;
+}
+
+.HiWcontent button > div {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.HiWbtnContent p {
+    margin-left: 20px;
+}
