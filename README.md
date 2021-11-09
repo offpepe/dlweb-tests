@@ -11,7 +11,7 @@
 
 ### Propósito:
 
-Projeto proposto como desafio técnico da DLW.
+Projeto proposto como desafio técnico da [DLW](https://www.linkedin.com/company/dlweb-br/about/).
 
 ### Resumo:
 
