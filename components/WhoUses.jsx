@@ -35,6 +35,12 @@ export default function WhoUses () {
         if (direction === '<' && active > 0) {
             setActive(active - 1);
         }
+        if (direction === '>' && active === influencers.length - 1) {
+            setActive(0);
+        }
+        if (direction === '<' && active === 0) {
+            setActive(influencers.length - 1);
+        }
     }
 
     return (
